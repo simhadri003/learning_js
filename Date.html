@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<hmtl>
+    <body>
+        <h1>Javascript HTML Events</h1>
+        <h2>The onclick Events</h2>
+
+    <p>Click "Try it" to execute the displayDate() Fucntion.<p>
+        <button id="myBtn">Try it</button>
+
+        <p id="demo"></p>
+
+        <script>
+            document.getElementById('myBtn').onclick = displayDate;
+
+            function displayDate(){
+                document.getElementById("demo").innerHTML = Date();
+            }
+        </script>
+
+    </body>
+
+</hmtl>
